@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
     <link rel="stylesheet" href="assets/css/venobox.min.css" />
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"
+    />
     <link rel="stylesheet" href="assets/css/meanmenu.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
@@ -53,106 +57,6 @@
     <div id="tj-back-to-top"><span id="tj-back-to-top-percentage"></span></div>
     <!-- back to top end -->
 
-    <!-- start: Search Popup -->
-    <div class="search-popup-overlay"></div>
-    <!-- end: Search Popup -->
-
-    <!-- start: Offcanvas Menu -->
-    <div class="tj-offcanvas-area d-none d-lg-block">
-      <div class="hamburger_bg"></div>
-      <div class="hamburger_wrapper">
-        <div class="hamburger_inner">
-          <div
-            class="hamburger_top d-flex align-items-center justify-content-between"
-          >
-            <div class="hamburger_logo">
-              <a href="index.html" class="mobile_logo">
-                <img src="assets/images/logos/logo-2.png" alt="Logo" />
-              </a>
-            </div>
-            <div class="hamburger_close">
-              <button class="hamburger_close_btn">
-                <i class="fa-thin fa-times"></i>
-              </button>
-            </div>
-          </div>
-          <div class="offcanvas-text">
-            <p>
-              Developing personalize our customer journeys to increase
-              satisfaction & loyalty of our expansion recognized by industry
-              leaders.
-            </p>
-          </div>
-          <div class="hamburger-search-area">
-            <h5 class="hamburger-title">Search Now!</h5>
-            <div class="hamburger_search">
-              <form method="get" action="index.html">
-                <button type="submit"><i class="tji-search"></i></button>
-                <input
-                  type="search"
-                  autocomplete="off"
-                  name="s"
-                  value=""
-                  placeholder="Search here..."
-                />
-              </form>
-            </div>
-          </div>
-          <div class="hamburger-infos">
-            <h5 class="hamburger-title">Contact Info</h5>
-            <div class="contact-info">
-              <div class="contact-item">
-                <span class="subtitle">Phone</span>
-                <a class="contact-link" href="tel:10095447818"
-                  >+1 (009) 544-7818</a
-                >
-              </div>
-              <div class="contact-item">
-                <span class="subtitle">Email</span>
-                <a class="contact-link" href="mailto:info@bexon.com"
-                  >info@bexon.com</a
-                >
-              </div>
-              <div class="contact-item">
-                <span class="subtitle">Location</span>
-                <span class="contact-link"
-                  >993 Renner Burg, West Rond, MT 94251-030</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hamburger-socials">
-          <h5 class="hamburger-title">Follow Us</h5>
-          <div class="social-links style-3">
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/" target="_blank"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://x.com/" target="_blank"
-                  ><i class="fa-brands fa-x-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/" target="_blank"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end: Offcanvas Menu -->
-
     <!-- start: Hamburger Menu -->
     <div class="hamburger-area d-lg-none">
       <div class="hamburger_bg"></div>
@@ -172,21 +76,7 @@
               </button>
             </div>
           </div>
-          <div class="hamburger-search-area">
-            <h5 class="hamburger-title">Search Now!</h5>
-            <div class="hamburger_search">
-              <form method="get" action="index.html">
-                <button type="submit"><i class="tji-search"></i></button>
-                <input
-                  type="search"
-                  autocomplete="off"
-                  name="s"
-                  value=""
-                  placeholder="Search here..."
-                />
-              </form>
-            </div>
-          </div>
+
           <div class="hamburger_menu">
             <div class="mobile_menu"></div>
           </div>
@@ -199,8 +89,8 @@
               </div>
               <div class="contact-item">
                 <span class="subtitle">Email</span>
-                <a class="contact-link" href="mailto:info@bexon.com"
-                  >info@bexon.com</a
+                <a class="contact-link" href="mailto:info@alsamah.com"
+                  >info@alsamah.com</a
                 >
               </div>
               <div class="contact-item">
@@ -275,7 +165,7 @@
                     <li>
                       <a href="blog.html">Blog</a>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                 </nav>
               </div>
@@ -312,7 +202,7 @@
                   </button>
                 </div>
                 <div class="header-button">
-                  <a class="tj-primary-btn" href="contact.html">
+                  <a class="tj-primary-btn" href="#contact">
                     <span class="btn-text"><span>Let’s Talk</span></span>
                     <span class="btn-icon"
                       ><i class="tji-arrow-right-long"></i
@@ -388,7 +278,7 @@
                           as architectural finishing and epoxy flooring.
                         </div>
                         <div class="slider-btn">
-                          <a class="tj-primary-btn" href="contact.html">
+                          <a class="tj-primary-btn" href="#contact">
                             <span class="btn-text"
                               ><span>Get Started</span></span
                             >
@@ -418,7 +308,7 @@
                           your trusted partner for successful projects.
                         </div>
                         <div class="slider-btn">
-                          <a class="tj-primary-btn" href="contact.html">
+                          <a class="tj-primary-btn" href="#contact">
                             <span class="btn-text"
                               ><span>Get Started</span></span
                             >
@@ -517,7 +407,7 @@
                     <h5 class="sec-title">
                       Join Over
                       <span class="client-numbers">1000+</span> Companies with
-                      <span class="client-text">Bexon</span> Here
+                      <span class="client-text">alsamah</span> Here
                     </h5>
                   </div>
                   <div
@@ -1024,286 +914,188 @@
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/1.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
+                            <div class="project-img">
+                              <a
+                                data-fancybox="gallery1"
+                                href="assets/images/project/1.jpg"
                               >
+                                <img
+                                  src="assets/images/project/1.jpg"
+                                  width="200"
+                                  height="150"
+                                  alt=""
+                                />
+                              </a>
+
+                              <div style="display: none">
+                                <a
+                                  data-fancybox="gallery1"
+                                  href="assets/images/project/1.jpg"
+                                >
+                                  <img src="assets/images/project/1.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery1"
+                                  href="assets/images/project/2.jpg"
+                                >
+                                  <img src="assets/images/project/2.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery1"
+                                  href="assets/images/project/3.jpg"
+                                >
+                                  <img src="assets/images/project/3.jpg" />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="project-content">
+                              <span class="categories">Engineering </span>
                               <div class="project-text">
                                 <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Construction of speed bumps and rumble
-                                    strips</a
-                                  >
+                                  Installation of traffic, warning, and
+                                  directional signs
                                 </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="swiper-slide">
                           <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/2.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
+                            <div class="project-img">
+                              <a
+                                data-fancybox="gallery2"
+                                href="assets/images/project/4.jpg"
                               >
+                                <img
+                                  src="assets/images/project/4.jpg"
+                                  width="200"
+                                  height="150"
+                                  alt=""
+                                />
+                              </a>
+
+                              <div style="display: none">
+                                <a
+                                  data-fancybox="gallery2"
+                                  href="assets/images/project/4.jpg"
+                                >
+                                  <img src="assets/images/project/4.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery2"
+                                  href="assets/images/project/5.jpg"
+                                >
+                                  <img src="assets/images/project/5.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery2"
+                                  href="assets/images/project/6.jpg"
+                                >
+                                  <img src="assets/images/project/6.jpg" />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="project-content">
+                              <span class="categories">Engineering </span>
                               <div class="project-text">
                                 <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Installation of traffic, warning, and
-                                    directional signs</a
-                                  >
+                                  Installation of traffic, warning, and
+                                  directional signs
                                 </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="swiper-slide">
                           <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/3.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
+                            <div class="project-img">
+                              <a
+                                data-fancybox="gallery3"
+                                href="assets/images/project/7.jpg"
                               >
+                                <img
+                                  src="assets/images/project/7.jpg"
+                                  width="200"
+                                  height="150"
+                                  alt=""
+                                />
+                              </a>
+
+                              <div style="display: none">
+                                <a
+                                  data-fancybox="gallery3"
+                                  href="assets/images/project/8.jpg"
+                                >
+                                  <img src="assets/images/project/8.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery3"
+                                  href="assets/images/project/9.jpg"
+                                >
+                                  <img src="assets/images/project/9.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery3"
+                                  href="assets/images/project/10.jpg"
+                                >
+                                  <img src="assets/images/project/10.jpg" />
+                                </a>
+                              </div>
+                            </div>
+                            <div class="project-content">
+                              <span class="categories">Engineering </span>
                               <div class="project-text">
                                 <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Road marking and painting</a
-                                  >
+                                  Installation of traffic, warning, and
+                                  directional signs
                                 </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="swiper-slide">
                           <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/4.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
+                            <div class="project-img">
+                              <a
+                                data-fancybox="gallery4"
+                                href="assets/images/project/3.jpg"
                               >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Construction of speed bumps and rumble
-                                    strips</a
-                                  >
-                                </h3>
+                                <img
+                                  src="assets/images/project/3.jpg"
+                                  width="200"
+                                  height="150"
+                                  alt=""
+                                />
+                              </a>
+
+                              <div style="display: none">
                                 <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
+                                  data-fancybox="gallery4"
+                                  href="assets/images/project/3.jpg"
                                 >
-                                  <i class="tji-arrow-right-big"></i>
+                                  <img src="assets/images/project/3.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery4"
+                                  href="assets/images/project/5.jpg"
+                                >
+                                  <img src="assets/images/project/5.jpg" />
+                                </a>
+                                <a
+                                  data-fancybox="gallery4"
+                                  href="assets/images/project/7.jpg"
+                                >
+                                  <img src="assets/images/project/7.jpg" />
                                 </a>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/5.jpg"
-                            ></div>
                             <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
+                              <span class="categories">Engineering </span>
                               <div class="project-text">
                                 <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Installation of traffic, warning, and
-                                    directional signs</a
-                                  >
+                                  Installation of traffic, warning, and
+                                  directional signs
                                 </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/6.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Road marking and painting</a
-                                  >
-                                </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/7.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Construction of speed bumps and rumble
-                                    strips</a
-                                  >
-                                </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/8.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Installation of traffic, warning, and
-                                    directional signs</a
-                                  >
-                                </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/9.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Road marking and painting</a
-                                  >
-                                </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="project-item">
-                            <div
-                              class="project-img"
-                              data-bg-image="assets/images/project/10.jpg"
-                            ></div>
-                            <div class="project-content">
-                              <span class="categories"
-                                ><a href="portfolio-details.html"
-                                  >Business</a
-                                ></span
-                              >
-                              <div class="project-text">
-                                <h3 class="title">
-                                  <a href="portfolio-details.html"
-                                    >Road marking and painting</a
-                                  >
-                                </h3>
-                                <a
-                                  class="project-btn"
-                                  href="portfolio-details.html"
-                                >
-                                  <i class="tji-arrow-right-big"></i>
-                                </a>
                               </div>
                             </div>
                           </div>
@@ -1413,333 +1205,194 @@
             </div>
           </div>
           <!-- end: Working process Section -->
-
-          <!-- start: Testimonial Section -->
-          <section class="tj-testimonial-section-2 section-gap">
-            <div class="container">
-              <div class="row row-gap-3">
-                <div class="col-lg-6">
-                  <div
-                    class="testimonial-img-area wow fadeInUp"
-                    data-wow-delay=".3s"
-                  >
-                    <div class="testimonial-img">
-                      <img
-                        data-speed=".8"
-                        src="assets/images/testimonial/testimonial-img.webp"
-                        alt=""
-                      />
-                      <div class="sec-heading style-2">
-                        <h2 class="sec-title text-anim">
-                          Hear from Our <span>Customer.</span>
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="box-area">
-                      <div class="rating-box wow fadeInUp" data-wow-delay=".3s">
-                        <h2 class="title">4.9</h2>
-                        <div class="rating-area">
-                          <div class="star-ratings">
-                            <div class="fill-ratings" style="width: 100%">
-                              <span>★★★★★</span>
-                            </div>
-                            <div class="empty-ratings">
-                              <span>★★★★★</span>
-                            </div>
-                          </div>
-                        </div>
-                        <span class="rating-text">(80+ Clients Reviews)</span>
-                      </div>
+          <div id="contact">
+            <!-- start: Contact Top Section -->
+            <div class="tj-contact-area section-gap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="sec-heading text-center">
+                      <span class="sub-title wow fadeInUp" data-wow-delay=".1s"
+                        ><i class="tji-box"></i>Contact info</span
+                      >
+                      <h2 class="sec-title title-anim">
+                        <span>Reach</span> Out to Us
+                      </h2>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div
-                    class="testimonial-wrapper wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    <div class="swiper testimonial-slider-2">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <span class="quote-icon"
-                              ><i class="tji-quote"></i
-                            ></span>
-                            <div class="desc">
-                              <p>
-                                Working with Bexon has been a game-changer for
-                                our business. Their team's professionalism,
-                                attention to detail, and innovative solutions
-                                have helped us streamline operations and achieve
-                                our goals faster than we imagined. We truly feel
-                                like a valued partner. The results we’ve seen
-                                after partnering.
-                              </p>
-                            </div>
-                            <div class="testimonial-author">
-                              <div class="author-inner">
-                                <div class="author-img">
-                                  <img
-                                    src="assets/images/testimonial/client-1.webp"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="author-header">
-                                  <h4 class="title">Guy Hawkins</h4>
-                                  <span class="designation">Co. Founder</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <span class="quote-icon"
-                              ><i class="tji-quote"></i
-                            ></span>
-                            <div class="desc">
-                              <p>
-                                The results we’ve seen after partnering with
-                                Bexon are beyond our expectations. They not only
-                                understood our vision but also brought new ideas
-                                to the table that have taken our business to the
-                                next level. Their expertise and commitment to
-                                success make them a trusted.
-                              </p>
-                            </div>
-                            <div class="testimonial-author">
-                              <div class="author-inner">
-                                <div class="author-img">
-                                  <img
-                                    src="assets/images/testimonial/client-2.webp"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="author-header">
-                                  <h4 class="title">Ralph Edwards</h4>
-                                  <span class="designation">Co. Founder</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="testimonial-item">
-                            <span class="quote-icon"
-                              ><i class="tji-quote"></i
-                            ></span>
-                            <div class="desc">
-                              <p>
-                                We’ve been working with Bexonfor years, and they
-                                continue to deliver outstanding results. Their
-                                team is proactive, responsive, and always goes
-                                the extra mile to ensure our needs are met.
-                                They’ve become a key contributor to our growth
-                                and success that really help us"
-                              </p>
-                            </div>
-                            <div class="testimonial-author">
-                              <div class="author-inner">
-                                <div class="author-img">
-                                  <img
-                                    src="assets/images/testimonial/client-3.webp"
-                                    alt=""
-                                  />
-                                </div>
-                                <div class="author-header">
-                                  <h4 class="title">Devon Lane</h4>
-                                  <span class="designation">Co. Founder</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-pagination-area"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- end: Testimonial Section -->
-          <!-- start: Contact Top Section -->
-          <div class="tj-contact-area section-gap">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="sec-heading text-center">
-                    <span class="sub-title wow fadeInUp" data-wow-delay=".1s"
-                      ><i class="tji-box"></i>Contact info</span
+                <div class="row row-gap-4">
+                  <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div
+                      class="contact-item style-2 wow fadeInUp"
+                      data-wow-delay=".3s"
                     >
-                    <h2 class="sec-title title-anim">
-                      <span>Reach</span> Out to Us
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div class="row row-gap-4">
-                <div class="col-xl-3 col-lg-6 col-sm-6">
-                  <div
-                    class="contact-item style-2 wow fadeInUp"
-                    data-wow-delay=".3s"
-                  >
-                    <div class="contact-icon">
-                      <i class="tji-location-3"></i>
+                      <div class="contact-icon">
+                        <i class="tji-location-3"></i>
+                      </div>
+                      <h3 class="contact-title">Our Location</h3>
+                      <p>55 El Bahr El Aazam Street, Giza Corniche</p>
                     </div>
-                    <h3 class="contact-title">Our Location</h3>
-                    <p>55 El Bahr El Aazam Street, Giza Corniche</p>
                   </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-sm-6">
-                  <div
-                    class="contact-item style-2 wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    <div class="contact-icon">
-                      <i class="tji-envelop"></i>
+                  <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div
+                      class="contact-item style-2 wow fadeInUp"
+                      data-wow-delay=".5s"
+                    >
+                      <div class="contact-icon">
+                        <i class="tji-envelop"></i>
+                      </div>
+                      <h3 class="contact-title">Email us</h3>
+                      <ul class="contact-list">
+                        <li>
+                          <a href="mailto:support@alsamah.com"
+                            >support@alsamah.com</a
+                          >
+                        </li>
+                        <li>
+                          <a href="mailto:info@alsamah.com">info@alsamah.com</a>
+                        </li>
+                      </ul>
                     </div>
-                    <h3 class="contact-title">Email us</h3>
-                    <ul class="contact-list">
-                      <li>
-                        <a href="mailto:support@bexon.com">support@bexon.com</a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@bexon.com">info@bexon.com</a>
-                      </li>
-                    </ul>
                   </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-sm-6">
-                  <div
-                    class="contact-item style-2 wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
-                    <div class="contact-icon">
-                      <i class="tji-phone"></i>
+                  <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div
+                      class="contact-item style-2 wow fadeInUp"
+                      data-wow-delay=".7s"
+                    >
+                      <div class="contact-icon">
+                        <i class="tji-phone"></i>
+                      </div>
+                      <h3 class="contact-title">Call us</h3>
+                      <ul class="contact-list">
+                        <li><a href="tel:01222605017 ">01222605017 </a></li>
+                        <li><a href="tel:01000006103 ">01000006103 </a></li>
+                      </ul>
                     </div>
-                    <h3 class="contact-title">Call us</h3>
-                    <ul class="contact-list">
-                      <li><a href="tel:01222605017 ">01222605017 </a></li>
-                      <li><a href="tel:01000006103 ">01000006103 </a></li>
-                    </ul>
                   </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-sm-6">
-                  <div
-                    class="contact-item style-2 wow fadeInUp"
-                    data-wow-delay=".9s"
-                  >
-                    <div class="contact-icon">
-                      <i class="tji-chat"></i>
+                  <div class="col-xl-3 col-lg-6 col-sm-6">
+                    <div
+                      class="contact-item style-2 wow fadeInUp"
+                      data-wow-delay=".9s"
+                    >
+                      <div class="contact-icon">
+                        <i class="tji-chat"></i>
+                      </div>
+                      <h3 class="contact-title">Live chat</h3>
+                      <ul class="contact-list">
+                        <li>
+                          <a href="tel:01115000088">01115000088</a>
+                        </li>
+                        <li class="active">
+                          <a href="contact.html">Need help?</a>
+                        </li>
+                      </ul>
                     </div>
-                    <h3 class="contact-title">Live chat</h3>
-                    <ul class="contact-list">
-                      <li>
-                        <a href="tel:01115000088">01115000088</a>
-                      </li>
-                      <li class="active">
-                        <a href="contact.html">Need help?</a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- end: Contact Top Section -->
+            <!-- end: Contact Top Section -->
 
-          <!-- start: Contact Section -->
-          <section class="tj-contact-section-2 section-bottom-gap">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="contact-form wow fadeInUp" data-wow-delay=".1s">
-                    <h3 class="title">
-                      Feel Free to Get in Touch or Visit our Location.
-                    </h3>
-                    <form id="contact-form">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="form-input">
-                            <input type="text" name="cfName" />
-                            <label class="cf-label"
-                              >Full Name <span>*</span></label
-                            >
+            <!-- start: Contact Section -->
+            <section class="tj-contact-section-2 section-bottom-gap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="contact-form wow fadeInUp" data-wow-delay=".1s">
+                      <h3 class="title">
+                        Feel Free to Get in Touch or Visit our Location.
+                      </h3>
+                      <form id="contact-form">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-input">
+                              <input type="text" name="cfName" />
+                              <label class="cf-label"
+                                >Full Name <span>*</span></label
+                              >
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="form-input">
-                            <input type="email" name="cfEmail" />
-                            <label class="cf-label"
-                              >Email Address <span>*</span></label
-                            >
+                          <div class="col-sm-6">
+                            <div class="form-input">
+                              <input type="email" name="cfEmail" />
+                              <label class="cf-label"
+                                >Email Address <span>*</span></label
+                              >
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="form-input">
-                            <input type="tel" name="cfPhone" />
-                            <label class="cf-label"
-                              >Phone number <span>*</span></label
-                            >
+                          <div class="col-sm-6">
+                            <div class="form-input">
+                              <input type="tel" name="cfPhone" />
+                              <label class="cf-label"
+                                >Phone number <span>*</span></label
+                              >
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="form-input">
-                            <div class="tj-nice-select-box">
-                              <div class="tj-select">
-                                <select name="cfSubject">
-                                  <option value="0">Chose a option</option>
-                                  <option value="1">Business Strategy</option>
-                                  <option value="2">Customer Experience</option>
-                                  <option value="3">
-                                    Sustainability and ESG
-                                  </option>
-                                  <option value="4">
-                                    Training and Development
-                                  </option>
-                                  <option value="5">
-                                    IT Support & Maintenance
-                                  </option>
-                                  <option value="6">Marketing Strategy</option>
-                                </select>
+                          <div class="col-sm-6">
+                            <div class="form-input">
+                              <div class="tj-nice-select-box">
+                                <div class="tj-select">
+                                  <select name="cfSubject">
+                                    <option value="0">Chose a option</option>
+                                    <option value="1">Business Strategy</option>
+                                    <option value="2">
+                                      Customer Experience
+                                    </option>
+                                    <option value="3">
+                                      Sustainability and ESG
+                                    </option>
+                                    <option value="4">
+                                      Training and Development
+                                    </option>
+                                    <option value="5">
+                                      IT Support & Maintenance
+                                    </option>
+                                    <option value="6">
+                                      Marketing Strategy
+                                    </option>
+                                  </select>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="form-input message-input">
-                            <textarea name="cfMessage" id="message"></textarea>
-                            <label class="cf-label"
-                              >Type message <span>*</span></label
-                            >
+                          <div class="col-sm-12">
+                            <div class="form-input message-input">
+                              <textarea
+                                name="cfMessage"
+                                id="message"
+                              ></textarea>
+                              <label class="cf-label"
+                                >Type message <span>*</span></label
+                              >
+                            </div>
+                          </div>
+                          <div class="submit-btn">
+                            <button class="tj-primary-btn" type="submit">
+                              <span class="btn-text"
+                                ><span>Submit Now</span></span
+                              >
+                              <span class="btn-icon"
+                                ><i class="tji-arrow-right-long"></i
+                              ></span>
+                            </button>
                           </div>
                         </div>
-                        <div class="submit-btn">
-                          <button class="tj-primary-btn" type="submit">
-                            <span class="btn-text"
-                              ><span>Submit Now</span></span
-                            >
-                            <span class="btn-icon"
-                              ><i class="tji-arrow-right-long"></i
-                            ></span>
-                          </button>
-                        </div>
-                      </div>
-                    </form>
+                      </form>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="map-area wow fadeInUp" data-wow-delay=".3s">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"
-                    ></iframe>
+                  <div class="col-lg-6">
+                    <div class="map-area wow fadeInUp" data-wow-delay=".3s">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <!-- end: Contact Section -->
+            </section>
+            <!-- end: Contact Section -->
+          </div>
         </main>
 
         <!-- start: Footer Section -->
@@ -1798,7 +1451,7 @@
                     <h5 class="title">Our Office</h5>
                     <div class="footer-contact-info">
                       <div class="contact-item">
-                        <a href="#"
+                        <a href="https://maps.app.goo.gl/xV3xtUEtnsLTtorc9"
                           ><i class="tji-location-3"></i> 55 El Bahr El Aazam
                           Street, Giza Corniche</a
                         >
@@ -1813,8 +1466,8 @@
                         <a href="tel:01000006103 "
                           ><i class="tji-phone"></i> 01000006103
                         </a>
-                        <a href="mailto:support@bexon.com"
-                          ><i class="tji-envelop"></i> support@bexon.com</a
+                        <a href="mailto:support@alsamah.com"
+                          ><i class="tji-envelop"></i> support@alsamah.com</a
                         >
                       </div>
                     </div>
@@ -1939,6 +1592,70 @@
     <script src="assets/js/appear.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/meanmenu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+
     <script src="assets/js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // register plugins
+        gsap.registerPlugin(ScrollSmoother, ScrollToPlugin);
+
+        const smoother = ScrollSmoother.create({
+          wrapper: "#smooth-wrapper",
+          content: "#smooth-content",
+          smooth: 1, // increase/decrease to taste
+          effects: true,
+        });
+        console.log("ScrollSmoother instance:", smoother);
+
+        // Delegated anchor handler (works for dynamically added links too)
+        document.addEventListener("click", (e) => {
+          const a = e.target.closest('a[href^="#"]');
+          if (!a) return;
+          const hash = a.getAttribute("href"); // use getAttribute to preserve "#id"
+          if (!hash || hash === "#") return;
+          e.preventDefault();
+
+          const targetEl = document.querySelector(hash);
+          if (!targetEl) {
+            console.warn("Anchor target not found:", hash);
+            return;
+          }
+
+          // If we have the smoother instance, use its scrollTo (works with the smoother)
+          if (smoother && typeof smoother.scrollTo === "function") {
+            // third argument can be "top 80px" to offset fixed headers
+            smoother.scrollTo(hash, true, "top 60px");
+          } else {
+            // fallback to ScrollToPlugin if smoother not available
+            gsap.to(window, {
+              duration: 0.8,
+              scrollTo: { y: targetEl, autoKill: true },
+            });
+          }
+
+          // update URL without causing default jump
+          history.pushState(null, "", hash);
+        });
+
+        // If the page loaded with a hash, scroll to it after init
+        if (window.location.hash) {
+          const h = window.location.hash;
+          setTimeout(() => {
+            if (smoother && typeof smoother.scrollTo === "function") {
+              smoother.scrollTo(h, true, "top 60px");
+            } else {
+              const t = document.querySelector(h);
+              if (t) gsap.to(window, { duration: 0.8, scrollTo: { y: t } });
+            }
+          }, 40); // small delay to ensure smoother is ready
+        }
+      });
+    </script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        //
+      });
+    </script>
   </body>
 </html>

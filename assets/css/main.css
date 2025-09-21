@@ -1547,8 +1547,8 @@ START: Theme Footer CSS
 }
 .widget-nav-menu.footer-col-3,
 .widget-nav-menu.footer-col-2 {
-  -webkit-padding-start: 115px;
-  padding-inline-start: 115px;
+  -webkit-padding-start: 25px;
+  padding-inline-start: 25px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
@@ -2072,8 +2072,8 @@ START: Theme Footer CSS
 }
 
 .widget-contact {
-  -webkit-padding-start: 76px;
-  padding-inline-start: 76px;
+  -webkit-padding-start: 15px;
+  padding-inline-start: 15px;
 }
 .widget-contact .title {
   color: var(--tj-color-common-white);
@@ -2102,7 +2102,6 @@ START: Theme Footer CSS
 }
 
 .footer-contact-info {
-  max-width: 230px;
   width: 100%;
 }
 .footer-contact-info .contact-item {
